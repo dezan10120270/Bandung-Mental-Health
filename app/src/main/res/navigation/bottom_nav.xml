@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/forumFragment">
+
+    <fragment
+        android:id="@+id/forumFragment"
+        android:name="com.example.bandungmentalhealthv10.ui.forum.ForumFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_forum" />
+
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.example.bandungmentalhealthv10.ui.article.ArticleFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_article" />
+
+    <fragment
+        android:id="@+id/jadwalFragment"
+        android:name="com.example.bandungmentalhealthv10.ui.jadwal.JadwalFragment"
+        android:label="fragment_jadwal"
+        tools:layout="@layout/fragment_jadwal" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.bandungmentalhealthv10.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.example.bandungmentalhealthv10.ui.service.ServiceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service" />
+</navigation>

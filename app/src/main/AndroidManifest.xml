@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.bandungmentalhealthv10"
+        tools:targetApi="tiramisu">
+        <activity
+            android:name=".ui.service.FiturCatatanKebaikan.Jurnal.DetailJurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturCatatanKebaikan.Jurnal.BuatJurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturCatatanKebaikan.Jurnal.JurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturCatatanKebaikan.Kalender.KalenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturCatatanKebaikan.CatatanKebaikanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.jadwal.JadwalFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.jadwal.SuccesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturMeditasi.MeditasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturMeditasi.MusicCemas"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturMeditasi.MusicProduktivitas"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturMeditasi.MusicTidur"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturMeditasi.TahanNapasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturKonsultasi.KonsultasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturMapLokasi.MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.FiturPanggilanDarurat.PanggilanDaruratActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.service.ServiceFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.forum.UserLikedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.FollowListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.VisitedProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.article.CategoryContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.comment.CommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.createpost.CreatePostActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.createpost.SelectCategoryActivity" />
+        <activity
+            android:name=".ui.createpost.SelectCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.authentication.ForgotPasswordActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.authentication.LoginWithEmailActivity" />
+        <activity
+            android:name=".ui.authentication.LoginWithEmailActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.authentication.LoginOptionsActivity" />
+        <activity
+            android:name=".ui.authentication.SignupWithEmailActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.authentication.SignupOptionsActivity" />
+        <activity
+            android:name=".ui.authentication.SignupOptionsActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.authentication.AuthenticationActivity" />
+        <activity
+            android:name=".ui.authentication.LoginOptionsActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.authentication.AuthenticationActivity" />
+        <activity
+            android:name=".ui.authentication.AuthenticationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.auth.api.credentials.CredentialsApi"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCJbEB7f8ynEvdkqtdXwj9febD11kiynY0" />
+    </application>
+
+</manifest>

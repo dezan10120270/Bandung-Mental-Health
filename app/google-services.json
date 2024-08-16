@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "346109366012",
+    "project_id": "bandung-mental-health-9d707",
+    "storage_bucket": "bandung-mental-health-9d707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346109366012:android:aee39a1a4dfe7cc5529179",
+        "android_client_info": {
+          "package_name": "com.example.bandungmentalhealthv10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346109366012-f11ia3n5je620tavvfij8aesrhih000s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bandungmentalhealthv10",
+            "certificate_hash": "2024de6257b3e8b63b743892451b6b1e8af6fcaf"
+          }
+        },
+        {
+          "client_id": "346109366012-1nvrmf6gg2v00fpelbs0siapfl7ksaq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk8xhAC27tsNvg0NOlOAYWWDsNoBcURbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346109366012-1nvrmf6gg2v00fpelbs0siapfl7ksaq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

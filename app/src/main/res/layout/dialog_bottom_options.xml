@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheetPostOptions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivPullIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_pull_bottom_dialog" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSeeAccount"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingHorizontal="16dp"
+        android:layout_marginTop="@dimen/space_between"
+        android:background="@color/bottom_sheet_options_bg_color"
+        android:fontFamily="@font/poppins_regular"
+        android:includeFontPadding="false"
+        android:text="Lihat Akun"
+        android:textColor="@color/textBlack"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_user_profile"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/space_between"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPullIcon"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvFollow"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingHorizontal="16dp"
+        android:background="@color/bottom_sheet_options_bg_color"
+        android:drawableStart="@drawable/ic_follow"
+        android:drawablePadding="@dimen/space_between"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:text="Ikuti Prabu"
+        android:textColor="@color/textBlack"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeeAccount" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvReport"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingHorizontal="16dp"
+        android:drawableStart="@drawable/ic_report"
+        android:drawablePadding="@dimen/space_between"
+        android:background="@color/bottom_sheet_options_bg_color"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:text="Laporkan Postingan"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFollow" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDelete"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingHorizontal="16dp"
+        android:drawableStart="@drawable/ic_delete"
+        android:drawablePadding="@dimen/space_between"
+        android:background="@color/bottom_sheet_options_bg_color"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:text="Hapus Postingan"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvReport" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

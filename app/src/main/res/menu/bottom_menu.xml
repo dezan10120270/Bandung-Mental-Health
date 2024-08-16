@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/forumFragment"
+        android:title="Forum"
+        android:icon="@drawable/selector_ic_forum"
+        />
+    <item
+        android:id="@+id/articleFragment"
+        android:title="Artikel"
+        android:icon="@drawable/selector_ic_search"/>
+    <item
+        android:id="@+id/serviceFragment"
+        android:title="Layanan"
+        android:icon="@drawable/selector_ic_service"/>
+
+    <item
+        android:id="@+id/JadwalFragment"
+        android:title="Jadwal"
+        android:icon="@drawable/selector_ic_jadwal"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Profile"
+        android:icon="@drawable/selector_ic_profile"/>
+</menu>

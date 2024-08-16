@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_video"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginBottom="@dimen/space_between"
+    android:background="@drawable/shape_card_background">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvImageVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivImageVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:clipToOutline="true"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            app:srcCompat="@drawable/shape_image_content"
+            tools:targetApi="s" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvImageVideo">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitleVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:includeFontPadding="false"
+            android:maxLines="3"
+            android:text="Pentingnya Menjaga Kesehatan Mental"
+            android:textAlignment="textStart"
+            android:textColor="@color/textBlack"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSourceVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/poppins_regular"
+                android:includeFontPadding="false"
+                android:text="Satu Persen"
+                android:textAlignment="center"
+                android:textColor="@color/textGrey"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/civProfilePicturePost"
+                app:layout_constraintTop_toBottomOf="@+id/tvUserNamePost" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:includeFontPadding="false"
+                android:text=" · "
+                android:textAlignment="center"
+                android:textColor="@color/textGrey"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvCategoryPost"
+                app:layout_constraintTop_toBottomOf="@+id/tvUserNamePost" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTimeCreated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/poppins_regular"
+                android:includeFontPadding="false"
+                android:text="6 Jan 2023"
+                android:textAlignment="center"
+                android:textColor="@color/textGrey"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvDot"
+                app:layout_constraintTop_toBottomOf="@+id/tvUserNamePost" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivPlayIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/cvImageVideo"
+        app:layout_constraintEnd_toEndOf="@+id/cvImageVideo"
+        app:layout_constraintStart_toStartOf="@+id/cvImageVideo"
+        app:layout_constraintTop_toTopOf="@+id/cvImageVideo"
+        app:srcCompat="@drawable/ic_video_play"
+        tools:targetApi="s" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cvImageVideo"
+        app:layout_constraintEnd_toEndOf="@+id/cvImageVideo">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvVideoDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="2dp"
+            android:fontFamily="@font/poppins_medium"
+            android:includeFontPadding="false"
+            android:text="1:23"
+            android:textAlignment="center"
+            android:textColor="@color/textBlack"
+            android:textSize="10sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

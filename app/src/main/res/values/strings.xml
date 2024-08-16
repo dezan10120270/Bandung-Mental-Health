@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Bandung Mental Health</string>
+    <string name="message_desc">Kami membantu Anda\nuntuk mendapatkan dukungan\ndari orang lain</string>
+    <string name="message_title">Kamu tidak sendiri!</string>
+    <string name="login_message">Selamat datang kembali di</string>
+    <string name="app_title">Bandung Mental Health</string>
+    <string name="signup_message">Hai, selamat datang di</string>
+    <string name="signup_email">Daftar dengan Email</string>
+    <string name="login_email">Login dengan Email</string>
+    <string name="delete_post_description">Apakah Anda yakin ingin menghapus postingan ini?\nHal ini tidak dapat diurungkan dan akan\ndihapus secara permanen.</string>
+    <string name="delete_post_title">Hapus Postingan?</string>
+    <string name="delete_comment_description">Apakah Anda yakin ingin menghapus komentar ini?\nTindakan ini tidak dapat diurungkan dan\nakan dihapus secara permanen.</string>
+    <string name="delete_comment_title">Hapus Komentar?</string>
+    <string name="delete_diary_description">Apakah Anda yakin ingin menghapus diary?\nTindakan ini tidak dapat diurungkan dan\nakan dihapus secara permanen.</string>
+    <string name="delete_diary_title">Hapus Diary?</string>
+    <string name="title_create_post_public">Tulis Postingan</string>
+    <string name="title_create_post_anonymous">Posting Anonim</string>
+    <string name="title_create_post_diary">Tulis Diary</string>
+    <string name="login_success_title">Login berhasil!</string>
+    <string name="login_success_description">Hi, selamat datang</string>
+    <string name="forgotpass_success_title">Periksa email Anda!</string>
+    <string name="forgotpass_success_description">Kami telah mengirimi tautan ke email Anda</string>
+    <string name="signup_success_title">Daftar berhasil!</string>
+    <string name="signup_success_description">Akun anda telah berhasil dibuat</string>
+    <string name="update_profile_success_title">Profil diperbarui!</string>
+    <string name="update_profile_success_description">Data profil Anda \nberhasil diperbarui</string>
+    <string name="description_empty_notification">Semua pemberitahuan tentang Anda akan muncul di sini</string>
+    <string name="title_empty_notification">Belum Ada Pemberitahuan!</string>
+    <string name="title_no_post_message">Belum Ada Postingan!</string>
+    <string name="title_no_diary_message">Belum Ada Diary!</string>
+    <string name="description_no_anonymous_post_message">Anda belum mempublikasikan postingan anonim</string>
+    <string name="description_no_post_message">Anda belum mempublikasikan postingan apapun</string>
+    <string name="description_no_diary_message">Anda belum mempublikasikan diary apapun</string>
+    <string name="title_profanity_detected">Kata-kata tidak pantas terdeteksi!</string>
+    <string name="description_profanity_detected">Kami menemukan kata-kata yang tidak pantas \ndi postingan Anda, harap periksa kembali.</string>
+    <string name="title_no_followers">Tidak Ada Pengikut!</string>
+    <string name="title_no_following">Tidak Ada Diikuti!</string>
+    <string name="title_no_following_posts">Tidak Ada Postingan!</string>
+    <string name="description_no_following_posts">Postingan dari orang yang Anda ikuti\n akan muncul di sini, cobalah untuk mengikuti lebih banyak orang.</string>
+    <string name="title_no_liked_post">Anda belum menyukai postingan apa pun!</string>
+    <string name="description_no_liked_post">Postingan yang Anda sukai akan ditampilkan di sini</string>
+    <string name="title_report_successful">Terima kasih telah melaporkan</string>
+    <string name="description_report_successful">Kami akan meninjau laporan Anda terlebih dahulu\nTerima kasih telah membantu kami\nmeningkatkan aplikasi.</string>
+
+    <string name="default_web_client_id">YOUR_CLIENT_ID_HERE</string>
+
+    <string-array name="title_report_options">
+        <item>Spam</item>
+        <item>Kebencian</item>
+        <item>Penipuan</item>
+        <item>Akun palsu</item>
+        <item>Konten Tidak Pantas</item>
+    </string-array>
+
+    <string-array name="desc_report_options">
+        <item>Postingan/komentar yang berulang, tidak relevan, atau berbahaya</item>
+        <item>Berisi ujaran kebencian/pelecehan, intimidasi, pelecehan, dll</item>
+        <item>Berisi konten yang memiliki kecenderungan menipu</item>
+        <item>Pengguna diindikasikan tidak menggunakan identitas asli</item>
+        <item>Ketelanjangan atau pornografi, kekerasan, aktivitas berbahaya, dll</item>
+    </string-array>
+
+    <string name="ttCall">Anda Tidak Sendiri</string>
+    <string name="call">"Temukan Dukungan Tak Terbatas: Rasakan Ketenangan Hati dan Pikiran dengan Panggilan Darurat. Bersama, kita hadapi setiap tantangan untuk kesehatan mental yang lebih baik. Jangan ragu, hubungi sekarang dan mulailah perjalanan menuju kesejahteraan penuh!"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
